@@ -1,5 +1,5 @@
 '''The observed PIN'''
-'''Each digit could actually be another adjacent digit (horizontally or vertically, but not diagonally). E.g. instead of the 1 it could also be the 2 or 4. And instead of the 5 it could also be the 2, 4, 6 or 8.'''
+'''Each digit could actually be another adjacent digit (horizontally or vertically, but not diagonally). E.g. instead of the 1 it could also be the 2 or 4. And instead of the 5 it could be the 2, 4, 6 or 8.'''
 
 
 
