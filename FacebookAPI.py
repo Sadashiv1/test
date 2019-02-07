@@ -17,11 +17,7 @@ class FbData:
         df =DataFrame(s1['photos']['data'])
         export_csv=df.to_csv("/home/nineleaps/PycharmProjects/PythonProgs/ExtractData/Names.csv")
 
-
-#        urllib.urlretrieve("", "00000001.jpg")
-
     def download_photos(self):
-
         with open('Names.csv', 'r') as f:
             reader = csv.reader(f)
             your_list = list(reader)
