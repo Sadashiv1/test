@@ -31,9 +31,9 @@ class FbData:
             your_list.pop(0)                        # To remove the first element of list as it is of no  use
             l=len(your_list)
 
-            for i,j in enumerate(your_list):        # traversing the list to find the links of photos
-                print(j[-1])
-                self.download(j[-1], i)
+        for i,j in enumerate(your_list):        # traversing the list to find the links of photos
+            print(j[-1])
+            self.download(j[-1], i)
 
     def download(self,url,dest_path):               # function to download the photos by traversing the each links
                                                     # present in the list
