@@ -6,7 +6,7 @@ import urllib3
 from pandas import DataFrame
 from urllib.request import urlretrieve
 
-token='EAAEFCck16fEBADP7xUYixZCpWAEjbMjE0ap8vK7FZBSOiosZAY4Dso3OA3d0ktPHvZBEcfwihuyiRj9UFNkRXOUdA5hSDRqrfPRStiW2ePxf7ZBZAZBjqZCX1W3v6zkJ2JxxIWy1mdBAb0tOZAl7j1xxNtRUxxZAc9ZAHpVHH2mcEk9Gnk4BmbwZBDrahCwGz5qCbnbOWi3V1lDVJAZDZD'
+token='EAAEFCck16fEBAI5jyGXGMH6ZBmHJtQF5lBKZCXYCyfB1y5IyniOZCaMHaf1NBykH2DPZBCMlcQCFvPXWU3ZAnY6Y4BHgx9T3ZCCIQONZBmZBJZCk8RHYeiUtA6ZA2bH1jLuF8XAMFTUQcHnIfUknUXVGlSSHQg1Vszt3e07mVJjr1L8LKsZCnAQt075kdSesFi2uWwUwNLVkPKqQQZDZD'
 
 
 class Ishita:
@@ -44,7 +44,7 @@ class Ishita:
 
     def Download(self, url, dest_path):       # function to download the photos by traversing the each links
                 # present in the list
-        urlretrieve(url,"Image{}".format(dest_path) + ".jpg")       # retrieving the photo from the link availabel and
+        urlretrieve(url, "Image{}".format(dest_path) + ".jpg")       # retrieving the photo from the link availabel and
                                                                             #  storing them into the destination path with files
                                                                             #  names as Image{1,2,3,4,5,6,7,8........}
 
